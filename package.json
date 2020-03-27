@@ -1,0 +1,47 @@
+{
+	"name": "is-npm-cli",
+	"version": "0.0.0",
+	"description": "Check if your code is running as an npm script",
+	"license": "MIT",
+	"repository": "sindresorhus/is-npm-cli",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"bin": {
+		"is-npm": "cli.js"
+	},
+	"engines": {
+		"node": ">=10"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"npm",
+		"yarn",
+		"is",
+		"check",
+		"detect",
+		"env",
+		"environment",
+		"run",
+		"script"
+	],
+	"dependencies": {
+		"is-npm": "^4.0.0",
+		"meow": "^6.0.0"
+	},
+	"devDependencies": {
+		"ava": "^1.0.0",
+		"execa": "^4.0.0",
+		"xo": "^0.28.1"
+	}
+}
