@@ -1,4 +1,4 @@
-# is-npm-cli [![Build Status](https://travis-ci.org/sindresorhus/is-npm-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/is-npm-cli)
+# is-npm-cli
 
 > Check if your code is running as an npm script
 
