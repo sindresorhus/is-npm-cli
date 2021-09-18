@@ -4,8 +4,8 @@
 
 ## Install
 
-```
-$ npm install --global is-npm-cli
+```sh
+npm install --global is-npm-cli
 ```
 
 ## Usage
